@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.huawei.ccn.cloudservice.demo.redis;
+package xyz.doublepi.cqrs.demo.redis;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

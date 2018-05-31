@@ -1,4 +1,4 @@
-package com.huawei.ccn.cloudservice.demo.redis.config;
+package xyz.doublepi.cqrs.demo.redis.config;
 
 import java.time.Duration;
 import org.springframework.context.annotation.Bean;
@@ -14,8 +14,8 @@ import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSeriali
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 @Configuration
-@ComponentScan("com.huawei.ccn.cloudservice.demo.redis")
-@EnableRedisRepositories(basePackages = "com.huawei.ccn.cloudservice.demo.redis.repository")
+@ComponentScan("xyz.doublepi.cqrs.demo.redis")
+@EnableRedisRepositories(basePackages = "xyz.doublepi.cqrs.demo.redis.repository")
 public class RedisConfig {
 
     @Bean

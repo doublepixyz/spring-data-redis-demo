@@ -1,7 +1,7 @@
-package com.huawei.ccn.cloudservice.demo.redis.controller;
+package xyz.doublepi.cqrs.demo.redis.controller;
 
-import com.huawei.ccn.cloudservice.demo.redis.model.Download;
-import com.huawei.ccn.cloudservice.demo.redis.service.DownloadCommandService;
+import xyz.doublepi.cqrs.demo.redis.model.Download;
+import xyz.doublepi.cqrs.demo.redis.service.DownloadCommandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

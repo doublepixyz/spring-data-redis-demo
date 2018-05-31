@@ -1,4 +1,4 @@
-package com.huawei.ccn.cloudservice.demo.redis.model;
+package xyz.doublepi.cqrs.demo.redis.model;
 
 import java.io.Serializable;
 import org.springframework.data.annotation.Id;

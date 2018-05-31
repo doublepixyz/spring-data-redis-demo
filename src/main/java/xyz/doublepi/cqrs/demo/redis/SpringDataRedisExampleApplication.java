@@ -1,4 +1,4 @@
-package com.huawei.ccn.cloudservice.demo.redis;
+package xyz.doublepi.cqrs.demo.redis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

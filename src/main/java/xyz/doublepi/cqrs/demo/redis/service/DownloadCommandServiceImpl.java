@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.huawei.ccn.cloudservice.demo.redis.service;
+package xyz.doublepi.cqrs.demo.redis.service;
 
-import com.huawei.ccn.cloudservice.demo.redis.model.Download;
-import com.huawei.ccn.cloudservice.demo.redis.repository.DownloadCommandRepository;
+import xyz.doublepi.cqrs.demo.redis.model.Download;
+import xyz.doublepi.cqrs.demo.redis.repository.DownloadCommandRepository;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
